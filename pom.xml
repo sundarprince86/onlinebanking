@@ -179,6 +179,7 @@
                 <configuration>
                         <server>tomcatDeployment</server>
                         <path>/OnlineBanking</path>
+			<finalName>WebApp</finalName>
                 </configuration>
                 </plugin>
                 </plugins>
