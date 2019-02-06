@@ -177,9 +177,12 @@
                 <artifactId>tomcat7-maven-plugin</artifactId>
                 <version>2.2</version>
                 <configuration>
-                        <server>http://3.81.226.68:8080</server>
-                        <path>/OnlineBanking</path>
-			<finalName>WebApp</finalName>
+                        <url>http://3.81.226.68:8080/manager/text</url>
+        		<server>tomcatserver</server>
+        		<path>/OnlineBanking</path>
+        		<username>admin</username>
+        		<password>admin</password><server>http://3.81.226.68:8080</server>
+                      	<finalName>WebApp</finalName>
                 </configuration>
                 </plugin>
                 </plugins>
