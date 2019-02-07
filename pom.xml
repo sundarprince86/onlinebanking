@@ -13,13 +13,7 @@
 		<sonar.language>java</sonar.language>
 	</properties>
 
-	<dependencies>
-
-		<dependency>
-    			<groupId>org.apache.tomcat.maven</groupId>
-    			<artifactId>tomcat7-maven-plugin</artifactId>
-    			<version>2.2</version>
-		</dependency>
+	<dependencies>	
 		
 		<dependency>
 			<groupId>junit</groupId>
@@ -169,8 +163,7 @@
     		</pluginManagement>
 		<finalName>onlinebanking</finalName>
 	</build>
-	<profiles>
-       <profiles>
+	<profiles>     
         <profile>
                 <id>tomcatDeployment</id>
                 <activation>
@@ -190,8 +183,7 @@
                 </plugin>
                 </plugins>
                 </build>
-        </profile>
-        </profiles>
+        </profile>        
 
         </profiles>
 
